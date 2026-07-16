@@ -1,0 +1,19 @@
+# Core data & analysis stack
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+seaborn>=0.12
+
+# Machine learning
+scikit-learn>=1.3
+imbalanced-learn>=0.11
+
+# Notebook runtime
+jupyter>=1.0
+ipykernel>=6.0
+
+# Optional ingestion backends used by the reusable data pipeline
+# (only needed if you point the pipeline at Excel or Parquet sources;
+#  CSV, JSON and SQLite work out of the box with the stdlib)
+openpyxl>=3.1        # Excel (.xlsx) ingestion
+pyarrow>=12.0        # Parquet ingestion
